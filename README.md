@@ -69,6 +69,7 @@ sudo apt-get -f install
 
 Debian 13
 ```bash 
-sudo dpkg -i pimersus-browser-debian13_1.0.1_amd64.deb 
-sudo apt-get -f install
+sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/ ./" > /etc/apt/sources.list.d/pimersus.list'
+sudo apt update
+sudo apt install pimersus-browser-debian13
 ```
