@@ -65,7 +65,7 @@ Debian 12 32 bits (AntiX)
 ```bash 
 sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" > /etc/apt/sources.list.d/pimersus.list'
 sudo apt update
-sudo apt install pimersus-browser-debian13
+sudo apt install pimersus-browser
 ```
 
 Debian 12 64 bits
