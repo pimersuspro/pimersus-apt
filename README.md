@@ -59,15 +59,23 @@ For greater peace of mind, you can consult the result of the security analysis i
 
 ## 📦 Installation on Debian/Ubuntu/MX Linux
 1. Download the `.deb` package from the `browser/` folder.
-2. Install with: 
+2. Install with:
 
-Debian 12
+Debian 12 32 bits (AntiX)
 ```bash 
-sudo dpkg -i pimersus-browser-debian12_1.0.1_amd64.deb 
-sudo apt-get -f install
+sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" > /etc/apt/sources.list.d/pimersus.list'
+sudo apt update
+sudo apt install pimersus-browser-debian13
 ```
 
-Debian 13
+Debian 12 64 bits
+```bash 
+sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian12/amd64/ ./" > /etc/apt/sources.list.d/pimersus.list'
+sudo apt update
+sudo apt install pimersus-browser-debian13
+```
+
+Debian 13 64bits
 ```bash 
 sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/ ./" > /etc/apt/sources.list.d/pimersus.list'
 sudo apt update
