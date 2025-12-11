@@ -1,9 +1,0 @@
-Origin: Pimersus
-Label: Pimersus Browser Repository
-Suite: stable
-Version: 1.2.2
-Architecture: amd64
-Components: main
-Description: Pimersus Browser packages for Debian
-Date: Thu, 11 Dec 2025 20:00:00 GMT
-Hash: SHA256=abd057bfd0b12b21733266d4be73a16e2c2aed2da8a814f2742a8bf48e12c84d
