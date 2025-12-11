@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Pimersus
+Label: Pimersus Browser Repository
+Suite: stable
+Version: 1.2.2
+Architecture: amd64
+Components: main
+Description: Pimersus Browser packages for Debian
+Date: Thu, 11 Dec 2025 20:56:59 +0000
+MD5Sum:
+ 1c01fb28a419f4ff794e54a66346c554              463 Packages.gz
+ ce2118aa2ab28b947521339555b22cd2               38 Release
+SHA1:
+ 72c62162dc1f57d284c647d1e7e8617b9896eb06              463 Packages.gz
+ 2621c4e8deda77a65254fbdd8caef8942fc50540               38 Release
+SHA256:
+ abd057bfd0b12b21733266d4be73a16e2c2aed2da8a814f2742a8bf48e12c84d              463 Packages.gz
+ 8ed34ab4e8696e6de1f195c580fa3facee533d76a09aaf867fb718d189f925a2               38 Release
+SHA512:
+ 1b18600c7ad2d862aef9e30b9cbb47d27775ce26170bcf619a4ae1ab1953b629eb52efebf83d523b5f46d32f23f900dca95e4af04c59378e28b010ab6744ef0f              463 Packages.gz
+ c62ad2426d692cfdde9a6c09eead0ffa828d0e8cd409ef2242a29e6b11234d42e8ac34e3fa9fe38ff1061a1dae9d048d79be5dbbf08ac1dc58404c894ecf6f1b               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmk7MhsACgkQ4uH2UsDf
+WyFuERAAyzOZ+PysleyzMVWDfn98ZWaiqiSt9IC03ogWA/ILGK6zYjDFQdh3RrCc
+I3T9TRkqWdC7nTOgZ5v98aLJuPczRBfsPmJkGgr7aRmSaA0qgl5gFB9u7qGvKqOd
+pHcToo6lUvqyJrgzpBJn8aMI7qu/vu++xBwa/4BqNFIml7ccgxhPsiKKRPIHBGO6
+0Nuypd7bDGsB4HzjBrg6RSb0G0JcdtjgQqfezHDw2RbdnvuKciXtBCM0Hgl8jRq4
+KCzLTKqA71iNafc0D4F+cBYRNE27defqE8yxUCgwinPYYflp+5MpT8OUtW2L+Pv+
+sAoBR5ELByTHjGD1IqHw/BSnj0C+qHqxPg/5wvUl5hvWU3y4LJ0ikufhGij5bsCh
+xVETS1otefQaXoEInNx9KkT3W0u1YQYSEtIc/By4QDtWL5Zy811FDNmEB+6n906h
+VhrCY6gdPv0JscCFcvE8NJaLU+a01aUArM4eIGPTyGyTZNv7oJhnEg77eX/F+KRs
+658IJRVvHDj2nA/i3jenPoUBdfDlbmfG2JDxPoVD1cdfFEh2ULFcywpnICrXIUfk
+gWutLkbsbC/VKB907vCL4cZPLBm9ccF6iS3mJCj1LiwdC0mkLGCh5GBG/q2JpJcv
+kSQi2R83TWAkZIQH6In9kmPspG6Y38vpoSLxWHgbNkP9HQ63hjc=
+=2phm
+-----END PGP SIGNATURE-----
