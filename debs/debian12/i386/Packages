@@ -1,0 +1,18 @@
+Package: pimersus-browser
+Version: 1.2.2
+Architecture: i386
+Maintainer: pimersus <pimersuspro@gmail.com>
+Installed-Size: 83
+Depends: libgtk-3-0, libwebkit2gtk-4.0-37, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libavcodec-extra
+Filename: ./pimersus-browser_1.2.2_i386.deb
+Size: 41160
+MD5sum: c4e24c62cd37b44287a0c704b1fcfbe8
+SHA1: a6c62fdfd0f74592f5916e000b5020fb8e7fd8de
+SHA256: 5271a32a57491149ec5708106944bd14bc42dda0a2a41e580c3d649e65eda6ff
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: Navegador web ligero para Pimersus OS
+License: unknown
+Vendor: none
+
