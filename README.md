@@ -63,21 +63,44 @@ For greater peace of mind, you can consult the result of the security analysis i
 
 Debian 12 32 bits (AntiX)
 ```bash 
-sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" > /etc/apt/sources.list.d/pimersus.list'
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
 sudo apt update
 sudo apt install pimersus-browser
 ```
+Uninstall
+```bash
+sudo apt remove pimersus-browser
+```
+
 
 Debian 12 64 bits
 ```bash 
-sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian12/amd64/ ./" > /etc/apt/sources.list.d/pimersus.list'
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/amd64/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/amd64/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
 sudo apt update
 sudo apt install pimersus-browser-debian12
 ```
+Uninstall
+```bash
+sudo apt remove pimersus-browser-debian12
+```
+
 
 Debian 13 64bits
 ```bash 
-sudo sh -c 'echo "deb [trusted=yes] https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/ ./" > /etc/apt/sources.list.d/pimersus.list'
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
 sudo apt update
 sudo apt install pimersus-browser-debian13
+```
+Uninstall
+```bash
+sudo apt remove pimersus-browser-debian13
 ```
