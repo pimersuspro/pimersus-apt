@@ -1,92 +1,102 @@
 # Pimersus Browser
 
-The Pimersus Browser is a minimalist browser designed specifically for PimersusOS. Although it can be used on Debian distributions such as Antix, MX Linux, Linux Lite, Ubuntu, and Debian itself, the most up-to-date version is 1.3.5, which is installed via APT and receives regular updates.
+Pimersus Browser is a minimalist web browser designed originally for **PimersusOS**, with compatibility extended to several Debian-based Linux distributions such as **AntiX, MX Linux, Linux Lite, Ubuntu, and Debian**.
 
-Its goal is to offer a simple and straightforward experience focused on browsing modern HTML web pages such as:
+The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
+
+The most up-to-date version is **1.3.5**, distributed via **APT repositories** and receiving regular updates.
+
+---
+
+## 🌐 Purpose and Use Case
+
+Pimersus Browser is intended for browsing modern HTML-based web applications and services, including:
 
 - YouTube
 - Gmail
 - Copilot
 - Gemini
 - ChatGPT
-- ...and many more
+- …and many more
 
-While the design is intended for low-resource computers or those considered obsolete by other developers, the Pimersus Browser can also be used on modern, more powerful machines.
+---
 
-Video of the latest version: https://www.youtube.com/watch?v=ABuBipN12JU
+## 🔐 Integrated Security Layer
 
+The latest versions of Pimersus Browser include an additional security layer powered by the **MalwareBazaar** threat intelligence database. MalwareBazaar is operated by **abuse.ch**, a well-respected non-profit organization in the cybersecurity community, and is supported by **Spamhaus**, a global leader in threat intelligence.
 
-The latest release of Primersus Browser introduces an additional security layer powered by the MalwareBazaar threat intelligence database, a platform dedicated to the detection and disruption of malware and botnet activity. MalwareBazaar is operated by abuse.ch, a well-respected non-profit organization within the cybersecurity community, and is supported by Spamhaus, a global leader in threat intelligence.
+### How It Works
 
-This security engine continuously monitors newly downloaded files in the system’s Downloads folder in real time, similar to the behavior of native protections on Windows systems. When a newly arriving file matches a known threat listed in the MalwareBazaar database, it is automatically isolated and placed into quarantine.
+- The security engine monitors **new files arriving in the system’s Downloads folder** in real time.
+- If a downloaded file matches a known malicious entry in the MalwareBazaar database, it is **automatically quarantined**.
+- Existing files already present on the system are **not scanned**.
 
-For performance and privacy reasons, the engine does not scan existing files on the system; it only analyzes new files as they enter the Downloads directory. To manually check files from external sources, such as USB drives, users may copy the file into the Downloads folder, where it will then be evaluated automatically.
+To manually analyze files from external sources (such as USB drives), users may copy the file into the **Downloads** folder, where it will be evaluated automatically.
 
-Manual Commands:
+### Manual Security Commands
 
-```bash 
+```bash
 primersus-av-scan /path/to/file
-
 sudo primersus-av-update
-
 sudo primersus-av-fullupdate
 ```
-This system has been designed with a minimalist and lightweight architecture. It operates entirely locally and runs silently in the background, with minimal impact on system performance. In practice, it is virtually imperceptible to the user.
 
-Unlike traditional security solutions that load large signature databases into memory (often consuming up to 2 GB of RAM), this approach performs targeted checks on demand without maintaining large databases in memory, ensuring optimal efficiency and low resource consumption.
+The security engine is designed with a **minimalist and lightweight architecture**. It runs locally, operates silently in the background, and has a negligible impact on system performance.
 
-This protection mechanism updates automatically on a daily basis, ensuring continuous access to the latest threat intelligence. In addition, the entire database is fully refreshed every seven days to maintain data integrity and relevance.
+Unlike traditional antivirus solutions that load large signature databases into RAM (often consuming up to 2 GB of memory), this system performs targeted, on-demand checks without maintaining heavy in-memory databases.
 
-If the system has not been used for an extended period—for example, during travel—it is recommended to perform a manual full database update upon returning. This ensures the protection cycle resumes with a fully up-to-date and synchronized threat database.
+Threat intelligence updates are performed **daily**, and the entire database is fully refreshed every **7 days**. If the system has been offline for an extended period, it is recommended to perform a manual full database update to ensure protection resumes with fully up-to-date data.
 
 ---
 
 ## 🚀 Main Features
-- Simple interface without distractions.
-- Compatible with current HTML websites.
-- Integration designed for PimersusOS, but portable to other systems.
-- `.deb` package ready to install on Debian-based distributions.
+
+- Simple, distraction-free interface
+- Compatible with modern HTML websites
+- Optimized for low-resource systems
+- Integrated lightweight malware protection
+- Debian-based `.deb` packages and APT repository support
 
 ---
 
+## 🔒 Privacy-Friendly (Simple, Not Extreme)
 
-
-## 🔒 Privacy-Friendly (simple, not extreme)
-
-Pimersus Browser includes a set of **light privacy protections** designed for everyday users — not for advanced anonymity tools like Tor.
+Pimersus Browser includes a set of **light privacy protections** designed for everyday users.
 
 ### ✅ What it protects
-- **Timezone spoofing:** forces UTC instead of your real timezone.  
-- **Language spoofing:** always reports `en-US`.  
-- **No geolocation:** GPS/WiFi location completely blocked.  
-- **No WebRTC leaks:** prevents exposing your local IP.  
-- **Clipboard protection:** sites cannot read your clipboard without permission.  
-- **Reduced fingerprinting:** hides or limits some hardware information.
 
-### ❌ What it *does not* do
-- It is **not** an anonymity tool.  
-- It does **not** replace Tor or privacy-focused browsers.  
-- It does **not** include heavy ad-blocking (only light DOM filtering).  
+- Timezone spoofing (reports UTC)
+- Language spoofing (`en-US`)
+- Geolocation completely disabled
+- WebRTC leak prevention
+- Clipboard access protection
+- Reduced browser fingerprinting
 
-**Pimersus Browser simply gives you a bit more privacy than a normal browser —  
-without breaking compatibility or your everyday browsing.**
+### ❌ What it does *not* do
 
----
+- It is **not** an anonymity tool
+- It does **not** replace Tor or hardened privacy browsers
+- It does **not** include heavy ad blocking (only light DOM filtering)
 
-
-
-## ⚠️ Important notice
-If you want to try the browser on your Debian distribution, **it is at your own risk**.
-This project is in development and may have limitations outside of PimersusOS.
-
-For greater peace of mind, you can consult the result of the security analysis in **VirusTotal**:
-[Full report here](https://www.virustotal.com/gui/file/b389ededf9bd5accd8fb9a1103d249f4f66d63983b0a54748da93207e51588c0?nocache=1)
+Pimersus Browser aims to provide **better-than-default privacy** without breaking website compatibility or everyday usability.
 
 ---
 
-## 📦 APT Installation on Debian/Ubuntu/MX Linux
-Debian 12 32 bits (AntiX)
-```bash 
+## ⚠️ Important Notice
+
+Running Pimersus Browser on distributions other than PimersusOS is done **at the user’s own risk**. While it works well on many Debian-based systems, some limitations may exist outside the native environment.
+
+For additional transparency, a security analysis report is available on **VirusTotal**:
+
+https://www.virustotal.com/gui/file/b389ededf9bd5accd8fb9a1103d249f4f66d63983b0a54748da93207e51588c0
+
+---
+
+## 📦 APT Installation (Recommended)
+
+### Debian 12 – 32-bit (AntiX)
+
+```bash
 wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
 
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
@@ -94,13 +104,17 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimers
 sudo apt update
 sudo apt install pimersus-browser
 ```
-Uninstall
-```bash 
+
+Uninstall:
+```bash
 sudo apt remove pimersus-browser
 ```
 
-Debian 12 64 bits
-```bash 
+---
+
+### Debian 12 – 64-bit
+
+```bash
 wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/amd64/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
 
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/amd64/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
@@ -108,13 +122,17 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimers
 sudo apt update
 sudo apt install pimersus-browser-debian12
 ```
-Uninstall
-```bash 
+
+Uninstall:
+```bash
 sudo apt remove pimersus-browser-debian12
 ```
 
-Debian 13 64bits
-```bash 
+---
+
+### Debian 13 – 64-bit
+
+```bash
 wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
 
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/amd64/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
@@ -122,30 +140,33 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimers
 sudo apt update
 sudo apt install pimersus-browser-debian13
 ```
-Uninstall
-```bash 
+
+Uninstall:
+```bash
 sudo apt remove pimersus-browser-debian13
 ```
 
+---
 
-## 📦 Manual .deb Installation on Debian/Ubuntu/MX Linux
-1. Download the `.deb` package from the `browser/` folder.
-2. Install with: 
+## 📦 Manual .deb Installation
 
-Debian 12 32Bits
-```bash 
-sudo dpkg -i pimersus-browser_1.2.2_i386.deb 
+### Debian 12 – 32-bit
+
+```bash
+sudo dpkg -i pimersus-browser_1.2.2_i386.deb
 sudo apt-get -f install
 ```
 
-Debian 12 64Bits
-```bash 
-sudo dpkg -i pimersus-browser-debian12_1.2.5_amd64.deb 
+### Debian 12 – 64-bit
+
+```bash
+sudo dpkg -i pimersus-browser-debian12_1.2.5_amd64.deb
 sudo apt-get -f install
 ```
 
-Debian 13 64Bits
-```bash 
-sudo dpkg -i pimersus-browser-debian13_1.2.5_amd64.deb 
+### Debian 13 – 64-bit
+
+```bash
+sudo dpkg -i pimersus-browser-debian13_1.2.5_amd64.deb
 sudo apt-get -f install
 ```
