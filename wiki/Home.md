@@ -22,3 +22,4 @@ Pimersus Browser is a lightweight, privacy-focused web browser designed original
 It includes a minimalist local security layer powered by the MalwareBazaar threat intelligence database, providing targeted protection against known malicious downloads while preserving system performance and user privacy.
 
 For a general overview, refer to the main `README.md` file.
+
