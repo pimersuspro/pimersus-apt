@@ -170,3 +170,4 @@ sudo apt-get -f install
 sudo dpkg -i pimersus-browser-debian13_1.2.5_amd64.deb
 sudo apt-get -f install
 ```
+📘 Extended documentation is available in the project wiki: https://github.com/pimersuspro/pimersus-apt/tree/main/wiki
