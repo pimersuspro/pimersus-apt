@@ -5,10 +5,10 @@ Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 124
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libavcodec-extra, bash, curl, unzip, inotify-tools
 Filename: ./pimersus-browser-debian13_1.3.8_amd64.deb
-Size: 54608
-MD5sum: 40f90ad110db9bb27a8cf6a69eff5adb
-SHA1: 6fcf6b6b45c05d89537b8bfdf641233c71f54d8a
-SHA256: 917d20c569a79e75ab74eba7c0a7ab8af458b7848486dbca2f876c98f78063dc
+Size: 54606
+MD5sum: 314329370c8e5b1b9473319ee584565e
+SHA1: a717522ea17cd446530f2ef627719c58e7cf3002
+SHA256: 4f53c258c825c4b5abd13b4eab07ae93ac655eee2716dde2c01410fd719a020a
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
