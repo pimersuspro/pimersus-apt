@@ -168,24 +168,30 @@ sudo apt remove pimersus-browser-debian13
 
 ## 📦 Manual .deb Installation
 
+### Slim Debian 12 – 32-bit
+
+```bash
+sudo dpkg -i pimersus-browser-slim_1.5.0_i386.deb
+sudo apt-get -f install
+
 ### Debian 12 – 32-bit
 
 ```bash
-sudo dpkg -i pimersus-browser_1.2.2_i386.deb
+sudo dpkg -i pimersus-browser_1.5.0_i386.deb
 sudo apt-get -f install
 ```
 
 ### Debian 12 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian12_1.2.5_amd64.deb
+sudo dpkg -i pimersus-browser-debian12_1.5.0_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Debian 13 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian13_1.2.5_amd64.deb
+sudo dpkg -i pimersus-browser-debian13_1.5.0_amd64.deb
 sudo apt-get -f install
 ```
 📘 Extended documentation is available in the project wiki: https://github.com/pimersuspro/pimersus-apt/tree/main/wiki
