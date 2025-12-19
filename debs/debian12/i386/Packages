@@ -1,14 +1,14 @@
 Package: pimersus-browser
-Version: 1.4.0
+Version: 1.4.1
 Architecture: i386
 Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 116
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa, bash, curl, unzip, inotify-tools
-Filename: ./pimersus-browser_1.4.0_i386.deb
-Size: 54328
-MD5sum: 4832297af5cacdbefcdfadcc56268d3e
-SHA1: c684fcfde33a5a7a1a9c8af5ea3931b92f454b61
-SHA256: 34dc4c3708fe653df72ed9381f1ba7f7774533fb044a3278b273288dcea4f889
+Filename: ./pimersus-browser_1.4.1_i386.deb
+Size: 54320
+MD5sum: 0ba44dfa34b6a6eaecccf41a1d6eeedc
+SHA1: e3aa6aad9e8e9f03c887867d074eefbf72265e69
+SHA256: 1e2313e8ad8f97ff0018f0af2017442b2f55927e9bcd0dbffb78f4b5b687061d
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
