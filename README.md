@@ -95,6 +95,7 @@ https://www.virustotal.com/gui/file/b389ededf9bd5accd8fb9a1103d249f4f66d63983b0a
 ## 📦 APT Installation (Recommended)
 
 ### Slim version Debian 12 – 32-bit (AntiX)
+Version for low-resource computers, below 4GB of RAM, older computers
 
 ```bash
 wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
