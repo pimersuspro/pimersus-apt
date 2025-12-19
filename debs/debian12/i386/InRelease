@@ -5,39 +5,39 @@ Origin: Pimersus
 Label: Pimersus Browser Repository
 Suite: stable
 Version: 1.5.0
-Architecture: amd64
+Architecture: i386
 Components: main
 Description: Pimersus Browser packages for Debian
-Date: Fri, 19 Dec 2025 15:26:03 +0000
+Date: Fri, 19 Dec 2025 16:34:33 +0000
 MD5Sum:
  de1a79eeb0b90be2b5dda397676148b7              765 Packages
  7a3f3afbd9e98b7e06f222f06bec97c3              489 Packages.gz
- 0049a174a7798da941e9bdbb9d62d952               38 Release
+ d324cec894f44dcac614db1232d5b967               38 Release
 SHA1:
  33cdcce84328534379af729d4f99145fff08476a              765 Packages
  c326d663795bba27e7ffcba228b712038c3bc833              489 Packages.gz
- 3bd73b75d51aca344567db8817659fa4cdf511eb               38 Release
+ 688293330432013a79e7e910347398202293f895               38 Release
 SHA256:
  f106278d09676bc7d7f0ef5a1e076d1f29c87f9ed4cbe85b1fe7d0dfa0b941ba              765 Packages
  ee14c61a023edb5f1093e84ee4f90a034204ceafcd65aeb71d25cab09638d2f5              489 Packages.gz
- 8fcf4f93c99a14b80a62af934affae7f0e3d12a28046438b2c6fa099c72c39b8               38 Release
+ 5ef0065a4f6c483bdfa4f3b219005ebb952a4925b9b63c6e886ba7100772c426               38 Release
 SHA512:
  ed7736c333eb4e5ef04613233f3b3a7682d14e550e363a4904a44c97702b771f9e954981ca0fbd922c8878f54360035e44e54b0d364da976d87d4dcdad7cb2a3              765 Packages
  b63013e2eb4262e22792f8351a263006483b8ecd50da82d318b527762f8ae9b9e5bf0c5831bf6a8ddfe38d08f712a69af611abc1b28653ec9c88e9e3c54bfcc5              489 Packages.gz
- 43fa6b9f82159a62f79be4d9b004e192e6eeb08063e4dcdca72c3225288ccfbc4ac1eb890d0809df8c1c9828117e458bd576452a3ba19ce7cb194d22f79a63aa               38 Release
+ 327a8d8a949c6d63ebefce043a3fa7c4837949f87348c3f3b3375840afd26fb798da50964973b02a7b67c944ef1ccad8661ec086754252fd0b5d3625e04e9734               38 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmlFbqgACgkQ4uH2UsDf
-WyFvihAAhM7mLLyFIHcVIszndcT9DRjnVlkI19JwLbDyqrLWncjBTczGmSCYgvgx
-v2FafpCmfD9CPi/OH9Vaao4oYocuLNur7f3k2vdaLvJcYS7g9U66LOaXPXjXpdN3
-kWx/UPMemkgkYxcLL0F+lXuMtZKNmCL9vv0CSx8nLjUGht/XiJo4e74k4nSG5VNo
-BwV7TWY9yUkOxFSH9Qrhf1EVLjKE4DdJYzDJxl9Hzn3G3zrL/M3GMS83iga5Lgk9
-L55emFwKW4Zw3CZUa0yFnTA01iSxjD5J1XWybHUkrGaZ64ZSNha1LP8yTary4aS7
-lrCEVByuuFWhrU1u2h7R+TfePcQTZor2T+bd6GDFU72hZxt5tlEYv7T0sE0okMao
-aBCMcNZYQbB1u/rx2oq9CNHIuKzJFtmbGjJyrl/nKCM4nOzivesUoBnMijPGkXZb
-nS1jHCkB+Wiq1T8aLNmpmWoVOjRQOuxleoBWlYv7tB9bn1z0TntQRcPvnW2a6ckj
-3s3RXH2d+O0scHWSmxTWr3HqJckxTYl1lAryFEdviSw3kI/oArnn/cX+zy9hD+T0
-8Rqds7CuF7lE+UwyrdbkdU4IJO3HDryVS9aLDhLRYyr8S0aZAA7CBkNp677SUj83
-qNvI7bEeQfzqaMp42yiG9XHsG6B4dukH2k6Q2601H3mkfhf+UNU=
-=mBib
+iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmlFfr0ACgkQ4uH2UsDf
+WyFwBg//aeWxjmI6C7IKPPNAIRlIUF3um8tbKJXEFKIZcRvbQF6mXH3es8j0lsLo
+MuQ/feLBorWut7C7HA8CG8T7hdhncDHvtMSEYtaILVUm/BKUwhGcnB4HROgmNY1a
+7GSJrarNFlnOm3/ozjYWxdlmeispoEiS7dsO0ma5st9jBqdZz6f3EY59ksxLH6Rb
+Dp6JfnN3qIqWRxJ1GKmrd9ZLjZVdU410ahq5PdK3PS8LZMF3wCgOEazuhwUVBc0w
+7hxhvAstVEmbel6pwBqRUIcNmowogavNcwxavDyM+L2429PJzX8dLRw+dF1YckuI
+qfGwwAo1xq/aYMwvF1N2NZAOsvANy27owp3Sy0cBGALMDDwTuePqKF+FLKT3K5sG
+mXfh9LPT+amDJ05d+TqMKr9nNp6mBEoGpVyHTHlOMXZ6dHfcsgubUui4XL69bTFJ
+OCW4wuhy62IfHosKZhLi0k5/7a+mjZzExekWVcp6zcbaTkTA4oLBtdwZT693AGFi
+ufFDA1wn70Ak3IGh/cyx3V2CT2ZbD5hJhXVNMsXIcUeAJbNVop0LypXGv1N8WqNs
+1dEdXQ0IouAdYKHvmSIF3vqy3dbEV3suPfTUWuwxhl7B4e4f9Ra60rQVoKQZc94U
+XAepviN+XmVBxhGRDXsPWg8H0BHe+9Werouh2BaqiUsv08boQ2o=
+=QOhs
 -----END PGP SIGNATURE-----
