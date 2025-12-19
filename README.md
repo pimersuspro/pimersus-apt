@@ -100,7 +100,7 @@ Version for low-resource computers, below 4GB of RAM, older computers
 ```bash
 wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
 
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+echo "deb [arch=i386 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
 
 sudo apt update
 sudo apt install pimersus-browser
@@ -118,7 +118,7 @@ sudo apt remove pimersus-browser
 ```bash
 wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
 
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+echo "deb [arch=i386 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
 
 sudo apt update
 sudo apt install pimersus-browser
