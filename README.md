@@ -94,6 +94,24 @@ https://www.virustotal.com/gui/file/b389ededf9bd5accd8fb9a1103d249f4f66d63983b0a
 
 ## 📦 APT Installation (Recommended)
 
+### Slim version Debian 12 – 32-bit (AntiX)
+
+```bash
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
+sudo apt update
+sudo apt install pimersus-browser
+```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser
+```
+
+---
+
 ### Debian 12 – 32-bit (AntiX)
 
 ```bash
