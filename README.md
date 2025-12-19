@@ -173,6 +173,7 @@ sudo apt remove pimersus-browser-debian13
 ```bash
 sudo dpkg -i pimersus-browser-slim_1.5.0_i386.deb
 sudo apt-get -f install
+```
 
 ### Debian 12 – 32-bit
 
