@@ -130,6 +130,24 @@ sudo apt remove pimersus-browser
 
 ---
 
+### Slim version Debian 12 – 64-bit (AntiX)
+Version for low-resource computers, below 4GB of RAM, older computers
+
+```bash
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-amd64/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian12/slim-amd64/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
+sudo apt update
+sudo apt install pimersus-browser-slim-debian12
+```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser-slim-debian12
+```
+
+---
+
 ### Debian 12 – 64-bit
 
 ```bash
@@ -147,6 +165,25 @@ sudo apt remove pimersus-browser-debian12
 ```
 
 ---
+
+### Slim version Debian 13 – 64-bit (MX Linux)
+Version for low-resource computers, below 4GB of RAM, older computers
+
+```bash
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/slim-amd64/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/slim-amd64/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
+sudo apt update
+sudo apt install pimersus-browser-slim-debian13
+```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser-slim-debian13
+```
+
+---
+
 
 ### Debian 13 – 64-bit
 
