@@ -1,0 +1,24 @@
+Origin: Pimersus
+Label: Pimersus Browser Repository
+Suite: stable
+Version: 1.6.2
+Architecture: amd64
+Components: main
+Description: Pimersus Browser packages for Debian
+Date: Mon, 29 Dec 2025 21:29:52 +0000
+MD5Sum:
+ efb122b0dc4d920f8d9b8b37aee300c6              830 Packages
+ 303a8097b2e5163a520acccc382eab7e              524 Packages.gz
+ e5f1bb4140ac46b5a040c528d4cfd85d               38 Release
+SHA1:
+ ba4435593641626a9cf4c222b9a4d46704a74ceb              830 Packages
+ 3d2862d6b33bbfa8a7fa2ee9e96fc784a9e62085              524 Packages.gz
+ 51762bf65b685ba0d5efdd81505c54cf2b9c4c03               38 Release
+SHA256:
+ ca2cc2f8adaf5e1a52d42fd73f494c7aa13935d52c9973bfbc77195cced4bf02              830 Packages
+ 20655590649e91b9055d0f036ea5ef234a9928054a435359fef8f68b4ffffd79              524 Packages.gz
+ 828c829df62c31ad6ac3e3427d4ab6b119f4dd32b2064c3e68b363a1e1abd965               38 Release
+SHA512:
+ 690ad5a031d4bdc572dde1fa2f1390f7aa9261cc87a0657b8dee2bc1b1878e17108a0c181618b4f1a7a0ba0e25b4a287ed8bcbcb488851604274b2fd7dbd9b59              830 Packages
+ 60fd937965716e6e64264534434295fab8bd78302697ae5b2ea75611c4e3d4f554a5cdefcdbb9c04239b3993c1560f06cf8e2775e58fcdf83f04d71120e3502f              524 Packages.gz
+ 790fc331a3e61c13ae61d3babeea28ec636905130d0384bb8978e66f0802d36d4ccb83f105a07282559b0c823fe066f4ea13a9fd3f395aff15d82196887b4d13               38 Release
