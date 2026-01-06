@@ -1,18 +1,19 @@
 Package: pimersus-browser-slim-debian13
-Version: 1.6.6
+Version: 1.6.7
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 74
-Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libavcodec-extra, bash, curl, unzip, inotify-tools, bubblewrap
-Filename: ./pimersus-browser-slim-debian13_1.6.6_amd64.deb
-Size: 31310
-MD5sum: d5c2fd4e7010e490536f2b66001a92aa
-SHA1: fd0133d001afa3cf79e0168655e57d869c9e2000
-SHA256: 4a022f0bd77cff97ca0b0fb32cfe891ca192f98270e32be6a2471e86940e7e35
+Installed-Size: 75
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, bash, curl, unzip, inotify-tools
+Recommends: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio
+Filename: ./pimersus-browser-slim-debian13_1.6.7_amd64.deb
+Size: 32920
+MD5sum: 987edcc7d2471ceb7cc5b18abb93833e
+SHA1: a55ab7914b4beb7293d12946679c5751b89ac112
+SHA256: b679a3c6df7bd5b37578ceced0ddf436fb2f05a8d43191498fa10304511d5d2e
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
-Description: Lightweight web browser for Pimersus OS with File Safety Monitor
+Description: Lightweight web browser for Pimersus OS
 License: unknown
 Vendor: none
 
