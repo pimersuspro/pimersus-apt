@@ -4,7 +4,7 @@ Pimersus Browser is a minimalist web browser designed originally for **PimersusO
 
 The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
 
-The most up-to-date version is **1.6.6**, distributed via **APT repositories** and receiving regular updates.
+The most up-to-date version is **1.6.7**, distributed via **APT repositories** and receiving regular updates.
 
 ---
 
