@@ -6,10 +6,10 @@ Installed-Size: 74
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, bash, curl, unzip, inotify-tools
 Recommends: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa
 Filename: ./pimersus-browser-debian12_1.6.8_i386.deb
-Size: 34192
-MD5sum: b0664a1823c1cca2adcda9dd62d8435b
-SHA1: 14a433de514094804f17e735797d1012baa29fe0
-SHA256: ca2a6cb80deff457a1b5bd8da52bf4eeb988b523e36022afd8eae91681745b48
+Size: 34194
+MD5sum: ad0909d2d092776b556eada013869b72
+SHA1: 9895ba45da7e641ebba17a644ac10e6dd75a07f2
+SHA256: 8b22f457dbf3c53d35684ea9496603b5f426ea60bb819612cd8431fa65fbb540
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
