@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Pimersus
+Label: Pimersus Browser Repository
+Suite: stable
+Version: 2.1.0
+Architecture: amd64
+Components: main
+Description: Pimersus Browser packages for Debian
+Date: Mon, 12 Jan 2026 14:54:39 +0000
+MD5Sum:
+ 465cd6dd7f85dba5420c42694d41c0f2              776 Packages
+ eb66b65df59386c22083c5f4c3c97d28              493 Packages.gz
+ da458848bc94c1f6250827ebdbe8dd31               38 Release
+SHA1:
+ 320a4f70cc12140d2b58503629499e0de4c726ca              776 Packages
+ 7d49c85659f266cd9d03a1c4e405be1ace3e07f9              493 Packages.gz
+ fc3c55f28931f16e47fc5971d3c021f228c0f931               38 Release
+SHA256:
+ 56478cf6f24950ee39552077d5f3a2e3beea38e7d52af6450787bd7d2f5e25e1              776 Packages
+ 23413a683cfc8ea083346fefecefa5330545726f26f2507ee6b7bbd14282e98c              493 Packages.gz
+ cc28591b693cb2a02270f7bc680efa50f3adcc31ca0e6c1a04089fc5f52bdb79               38 Release
+SHA512:
+ d2cd0d4f6d8ff7396193b55f0b8d5b43cd48da03e9c6575f95ccd559667aba64fcabd9637b2a39111883c3fdeb9785292e5617d6489e2fd9f5c6854c3a521f9f              776 Packages
+ c1686060d69ac52b833cfd05ebab74c13d5c06c199374c8eb868d993c328191b1a83b92c7442639d8af92bb02c587a6301442f3146f680a753dc899684430502              493 Packages.gz
+ 287d3d336ed5db03fefb54b6e36b87298c039a010cac4d687f1f73c665a203a0e37b12d140edb8df2ff980f08f276ac598b1c12591423fc6ec0687325d791373               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmllC0UACgkQ4uH2UsDf
+WyGH+hAAtTia0PqGVX5c7GVAo3uAyevLqShREHydDlzF76174uVZ5rCdfFtQruoq
+WSWks6t5ptP5AXp/IOyXWBBilJTgnNO5P68JOK6cdq0OTQbPxzFyGdiLLyS/rZZs
+LRahcEQosR62fEMIWE8J2fr0otPmhCqs0daO2xW4igKj9iKdkQMYjcJR1aAqSSCR
+PgA2n5sVCGFnPUatEjBMNRzTGHm5JEKvBeXyeayT69KypNfcNztzz1vcZI6ioLAU
+kQIFtQx+BIPzMtMKyrjDXPC9WWgUhP8a614pXMe9h/KppwfOq3rjboCs3Vg710ZE
+hXp7ajoX/4iisLfYdeSqOoahHcUruiKMwvKfcUounnQeQciDdkqn1uueyi0CF352
+P0T/fVoLQvjO7yi2oC602E2YhUBEnnlnUtpkYsvhFynu07V1KPlJGbrvYnUJI+/5
+3EdO6Hq87pBtGeQZ4nGeI16HS0Zu93T4LFeDAcg04NqxNBCo6zU6QCoA28sKtfHp
+KgsmXCFdBcmuzmcoWQgbNYp+qTihoTMemPi9FHe7kcVwkLoPK+Bg1AD6y5VYOI13
+XOmCn0X/2ADd30qYmcB7ph1rWPhRVamrWfarB9grVCFAb5ixlkAqKUTVT78gr0pP
+rF6E/gpe7FOJ75oL92zzyi5yePFwiflaw7vmee3tWRVyYF76TtA=
+=lBXE
+-----END PGP SIGNATURE-----
