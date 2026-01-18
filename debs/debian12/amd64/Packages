@@ -1,19 +1,19 @@
 Package: pimersus-browser-debian12
-Version: 2.1.0
+Version: 2.2.0
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 90
-Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, bash, curl, unzip, inotify-tools
-Recommends: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio
-Filename: ./pimersus-browser-debian12_2.1.0_amd64.deb
-Size: 37028
-MD5sum: b0dde3d07653607531be4bafd8c6de84
-SHA1: 94a20da82a7d773c195886774ce0357427fa6cd9
-SHA256: 8fa7209a33c511c0779509969e20467c844f8b46b32c6d21c0504c0df6c099e1
+Installed-Size: 85
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools
+Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
+Filename: ./pimersus-browser-debian12_2.2.0_amd64.deb
+Size: 36412
+MD5sum: 5fd181b14a0f67f147bf5578b9ed3b3b
+SHA1: 67917cdd13ed6620483064daec6707ea82548a28
+SHA256: 3ee2c603d876e0a77916cfd0bd2b6c4550d51baf3633fb4a6b1937490c70c47a
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
-Description: Lightweight web browser for Pimersus OS
+Description: Lightweight web browser for Pimersus OS (Modern WebKitGTK engine on Debian 13)
 License: unknown
 Vendor: none
 
