@@ -1,19 +1,19 @@
 Package: pimersus-browser
-Version: 2.1.0
+Version: 2.2.5
 Architecture: i386
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 84
-Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, bash, curl, unzip, inotify-tools
-Recommends: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa
-Filename: ./pimersus-browser_2.1.0_i386.deb
-Size: 38614
-MD5sum: 1d459994afd356d617fe834c865e2064
-SHA1: 98b88cd54ad73ff9e5e3df3aa3dd3bb66f4636b5
-SHA256: e0f6b9109288ac4ea45f8045171e1c69b269c37e2ed90c348517220080d5828a
+Installed-Size: 88
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools
+Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
+Filename: ./pimersus-browser_2.2.5_i386.deb
+Size: 37516
+MD5sum: e7dd7a2506648cf4e4bd955919edf7a6
+SHA1: 16b53c8e53f16f3223b1a063c990879828de440e
+SHA256: 9723bb52fe9706dc6083a4ea5aff0cf56544ff3fd4a443d559cf39546db50c7c
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
-Description: Lightweight web browser for Pimersus OS
+Description: Lightweight web browser for Pimersus OS (Modern WebKitGTK engine on Debian 13)
 License: unknown
 Vendor: none
 
