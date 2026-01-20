@@ -201,6 +201,22 @@ Uninstall:
 sudo apt remove pimersus-browser-debian13
 ```
 
+### Debian 13 – 64-bit Boosted
+
+```bash
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/booster/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/booster/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
+sudo apt update
+sudo apt install pimersus-browser-db13-boosted
+```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser-db13-boosted
+```
+
 ---
 
 ## 📦 Manual .deb Installation
