@@ -3,15 +3,15 @@ document.addEventListener('DOMContentLoaded', function () {
   const promoSection = document.getElementById('promo-section');
   if (!promoSection) return;
 
-  // --- Configuraci髇 ---
+  // --- Configuraci贸n ---
   const MIN_PIMERSUS_VERSION = "2.3.0";
   const UPDATE_URL = "https://sourceforge.net/projects/pimersusos/files/Pimersus-Browser/";
   
-  // 1. Obtener versi髇 inyectada por el C del navegador
+  // 1. Obtener versi贸n inyectada por el C del navegador
   const rawVersion = window.PIMERSUS ? window.PIMERSUS.version : null;
 
   /* ===============================
-     L覩ICA DE ACTUALIZACI覰 (ANTI-CACHE)
+     L脫GICA DE ACTUALIZACI脫N (ANTI-CACHE)
      =============================== */
   function normalizeVersion(v) {
     if (!v) return null;
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const version = normalizeVersion(rawVersion);
 
-  // Si no hay versi髇 o es vieja, dibujamos la interfaz
+  // Si no hay versi贸n o es vieja, dibujamos la interfaz
   const isOutdated = !version || versionLessThan(version, MIN_PIMERSUS_VERSION);
 
   /* ===============================
@@ -43,19 +43,19 @@ document.addEventListener('DOMContentLoaded', function () {
     <h2>SPONSORS</h2>
     <div id="promo-grid">
       <a class='promo-item' href='https://na.filtrospurificadoresdeagua.com/'>
-        <div class='promo-icon'><img src='https://us.pimersuspro.online/html/img/browser/agua.png'></div>
+        <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/agua.png'></div>
         <div class='promo-label'>Wellness<br>Products</div>
       </a>
       <a class='promo-item' href='https://play.google.com/store/apps/dev?id=7774033461197030799'>
-        <div class='promo-icon'><img src='https://us.pimersuspro.online/html/img/browser/apps.png'></div>
+        <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/apps.png'></div>
         <div class='promo-label'>Pimersus<br>Android Apps</div>
       </a>
       <a class='promo-item' href='https://amzn.to/4oMhmyX'>
-        <div class='promo-icon'><img src='https://us.pimersuspro.online/html/img/browser/compras.png'></div>
+        <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/compras.png'></div>
         <div class='promo-label'>Amazon<br>Deals</div>
       </a>
       <a class='promo-item' href='https://panel.mdmhost.com/aff.php?aff=25517'>
-        <div class='promo-icon'><img src='https://us.pimersuspro.online/html/img/browser/hosting.png'></div>
+        <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/hosting.png'></div>
         <div class='promo-label'>Web<br>Hosting</div>
       </a>
     </div>
@@ -74,8 +74,8 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     grid.prepend(updateBtn);
 
-    // TRUCO MAESTRO: Si estamos en una versi髇 vieja, forzamos al navegador 
-    // a intentar descargar una copia fresca del script para la pr髕ima vez.
+    // TRUCO MAESTRO: Si estamos en una versi贸n vieja, forzamos al navegador 
+    // a intentar descargar una copia fresca del script para la pr贸xima vez.
     const bustCache = document.createElement('script');
     bustCache.src = "https://us.pimersuspro.online/html/js/sponsor.js?t=" + new Date().getTime();
     document.head.appendChild(bustCache);
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
   fetch("https://sos.pimersuspro.online/wprs/browser/count.php", {
     method: "POST",
     keepalive: true,
-    body: JSON.stringify({ v: rawVersion || 'legacy' }) // Enviamos la versi髇 al contador
+    body: JSON.stringify({ v: rawVersion || 'legacy' }) // Enviamos la versi贸n al contador
   }).catch(() => {});
 
 });
