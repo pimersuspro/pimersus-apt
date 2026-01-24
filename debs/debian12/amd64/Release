@@ -5,20 +5,20 @@ Version: 2.5.0
 Architecture: amd64
 Components: main
 Description: Pimersus Browser packages for Debian
-Date: Sat, 24 Jan 2026 21:46:10 +0000
+Date: Sat, 24 Jan 2026 21:49:30 +0000
 MD5Sum:
  63cda8e1ae7d5febf8590217da15fce6              955 Packages
  078335240667843c367b709616c56792              591 Packages.gz
- 28379727c467c26ce707543d7cf8d76f               38 Release
+ a32e510ce1f410cf12e0d712fabb97e4               38 Release
 SHA1:
  c90550365b74859273f48e09d342a983c38f732b              955 Packages
  461ed2ff27d8e1c5a6ea191b3bcee850ccefd169              591 Packages.gz
- b66157e476b2476c6de6f354775ec1c75c41a2e5               38 Release
+ ce1d1ec1f43e7eeffeb59d494874f1b830b3a9a0               38 Release
 SHA256:
  c9946af6ee541640f3338a8225f92344eb4bb3a992b48975069e975c03b99d4f              955 Packages
  f9b70330d7bc616d645b3cdd343caa29854e6868af35de8c2f091a80d9bad8e1              591 Packages.gz
- 23548031f431cb307841a91f51d4a33b294ac53b36377eff5f798a20c6b41718               38 Release
+ df6d3e882eb91eacaf81308cb9ecfdd67344ce3959add53154304d3bb2f6d002               38 Release
 SHA512:
  54ac1ba2e35e91e21f70a589747bacb6c99810cb4c27743dd7718527a2c63bbf5458dc8a7aff4f86d69f523ce340c3554226a7582331c8bc9e1604b6cf8e493a              955 Packages
  3aca30734d766d3b11b137a8cab5be11171d8ac65aa4999e4bd14d925c615b44f0aaccc4c397cba86c100e448a1d2429bc35630c3fc76f4cb4a4064dbb779721              591 Packages.gz
- e19d635ce1ad0aef2636a170df158b1da1921298f0f04d3e91b293d2fdf00e055e1798dee0d292f51b534a9a96b4d670cf888f33ee5a0894f11dfe6ad233f864               38 Release
+ 7b8bfb73c4a50845099f74558636c2a6260a4bb2135809149656b0498156bc858a6e2b2eb6d596887656af78b1e29eb9bce39c3238425beefa31c823ac4abc31               38 Release
