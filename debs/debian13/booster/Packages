@@ -1,0 +1,19 @@
+Package: pimersus-browser-db13-boosted
+Version: 2.5.0
+Architecture: amd64
+Maintainer: pimersus <pimersuspro@gmail.com>
+Installed-Size: 71
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools
+Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
+Filename: ./pimersus-browser-db13-boosted_2.5.0_amd64.deb
+Size: 31004
+MD5sum: 01dfffa92454a8c69534f4058cf67570
+SHA1: 9a2dcf66644079dbef226035f81c66091323958b
+SHA256: 2f560d80ea3f034cbd7803b345e752c86dfce751d0aaf72c8f62c02beb694469
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: Lightweight web browser for Pimersus OS (Modern WebKitGTK engine on Debian 13)
+License: unknown
+Vendor: none
+
