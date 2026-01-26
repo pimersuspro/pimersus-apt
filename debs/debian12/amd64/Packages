@@ -1,15 +1,15 @@
 Package: pimersus-browser-debian12
-Version: 2.5.2
+Version: 2.6.0
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 83
+Installed-Size: 91
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-debian12_2.5.2_amd64.deb
-Size: 36698
-MD5sum: 3452b7a27a3bc8678b2856bc727b3d48
-SHA1: 2f8105ed3f6e87e733392302687d3c955ae3d7e6
-SHA256: 59d7eafe5e9dc1f213a81ea8bd3be1a2d66606ccdcdd310a5db7dfd117136056
+Filename: ./pimersus-browser-debian12_2.6.0_amd64.deb
+Size: 38384
+MD5sum: a7161c868ce811d6504294c1ecf0e285
+SHA1: 25b796432ac015630a94b3f8dc554e02c308a0d0
+SHA256: 6d14eda4c4f156fb6393f42c67ab846115e87fcde96cc489820b7b538c207292
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
