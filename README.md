@@ -4,7 +4,47 @@ Pimersus Browser is a minimalist web browser designed originally for **PimersusO
 
 The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
 
-The most up-to-date version is **2.7.0**, distributed via **APT repositories** and receiving regular updates.
+The most up-to-date version is **2.8.0**, distributed via **APT repositories** and receiving regular updates.
+
+🚀 Pimersus Browser: Real Privacy & Performance
+
+In a world of bloated browsers riddled with trackers, Pimersus stands as a resilient alternative.
+🛠️ Why Pimersus?
+
+    🪶 Extreme Lightweight: Designed to fly on older machines (like 1st Gen Core i5 CPUs)
+    and be lightning-fast on modern systems. We optimize every binary so that every CPU cycle counts.
+
+    🕵️ Real Privacy: No telemetry, no "phoning home," and no data collection. We don't
+    care about your information or what you do online. Pimersus was born out of the
+    frustration of downloading megabytes of updates for commercial browsers without
+    knowing what they are actually doing on your PC.
+
+    🛡️ Active Security: Exclusive protection powered by the MalwareBazaar (abuse.ch)
+    database, blocking threats in real-time before they even reach your system.
+
+    🧠 Zero Distractions: A clean interface, free from sponsored suggestions or
+    unnecessary services that steal your attention or CPU clock cycles.
+
+⚙️ "Guerrilla" Optimization
+
+Unlike generic binaries, Pimersus is custom-built using:
+
+    Clang + LTO (Link Time Optimization): For a smaller, more efficient executable.
+
+
+    Hardening (RELRO/Stack Protector): Industrial-grade security without sacrificing speed.
+
+    x86-64-v2 Architecture: Full compatibility with hardware from 2009 onwards.
+
+☕ Support the Project
+
+Keeping a "one-man-army" browser alive takes time. If you like what we do:
+
+    Donations: Every little bit helps keep the servers running (and the coffee brewing).
+
+    Amazon: If you are a regular Amazon shopper, use our sponsor link. It costs you
+    nothing extra, and we receive a small 3% commission. Every bit helps!
+
 
 ---
 
@@ -224,28 +264,36 @@ sudo apt remove pimersus-browser-db13-boosted
 ### Slim Debian 12 – 32-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-slim_2.7.0_i386.deb
+sudo dpkg -i pimersus-browser-slim_2.8.0_i386.deb
 sudo apt-get -f install
 ```
 
 ### Debian 12 – 32-bit
 
 ```bash
-sudo dpkg -i pimersus-browser_2.7.0_i386.deb
+sudo dpkg -i pimersus-browser_2.8.0_i386.deb
 sudo apt-get -f install
 ```
 
 ### Debian 12 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian12_2.7.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian12_2.8.0_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Debian 13 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian13_2.7.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian13_2.8.0_amd64.deb
 sudo apt-get -f install
 ```
+
+### Booster Debian 13 – 64-bit 
+
+```bash
+sudo dpkg -i pimersus-browser-db13-boosted_2.8.0_amd64
+sudo apt-get -f install
+```
+
 📘 Extended documentation is available in the project wiki: https://github.com/pimersuspro/pimersus-apt/tree/main/wiki
