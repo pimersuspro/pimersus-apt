@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Pimersus
+Label: Pimersus Browser Repository
+Suite: stable
+Version: 2.8.1
+Architecture: amd64
+Components: main
+Description: Pimersus Browser packages for Debian
+Date: Thu, 05 Feb 2026 13:46:09 +0000
+MD5Sum:
+ 27827459b1a8a87541b434d4fb373e24              964 Packages
+ 605ae4333f516abd9f7eec7d8d3bcbb6              599 Packages.gz
+ 14198cf8b37998515236eedc989c4c37               38 Release
+SHA1:
+ 02ad1f85bb74d0b60d4eb8b37d8e4861fe2ddae4              964 Packages
+ c041f57a7f47e1151d378b423a34855063f07dfb              599 Packages.gz
+ 364316871299063e3bfb97694c8428618ee42f87               38 Release
+SHA256:
+ 40d5c2c92b12d913cbc2afd67ede8405c99ed036d5bba308b585ccc5b2a34974              964 Packages
+ e67433baa1effc80df124838faf72091d26f6f3f52e01dc29ae2ef57dd92cd37              599 Packages.gz
+ cc5e946bfe9f40cfacdbcd625b8b4ff11d9e043c6240a01c7c61e72a27f8c0a1               38 Release
+SHA512:
+ 09b081dfdbfd2ffa57a61bbe04c3cb03b53457a48c0fac3eb6946ec5749c62e988e09c9bcc1473a712d717edef7cf2e7facb62685b352ad88233d9cda79ff985              964 Packages
+ bea46e21b9447b714cf8a739cd6028e5e5737794f03104ca144f15b2d3da5fccbabf06ebafa4b4cf5b3e874f48693f78461c0f43f26196a4ddd2847ec5d0d404              599 Packages.gz
+ 0ccfb1033d5a261eeff41a5b53883b074961ec0637cc3d41e2c0544a3d875f251b5983bd3125c610264b018c44351c6dd8b31db9e762b9881bfcd936202d418a               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmmEnz8ACgkQ4uH2UsDf
+WyGVJxAAzXfAkA6eUGbWtEd7B3LKj9xok1FpPm876QsnvyiIcCogdoxb8gAjpMS8
+ixZE3inlft3iHtBSXUUUyqD93sBiKspYOwfg/bmKYrbOEkKNzPHhzJq3FZB1KC03
+v6g3vK/f1R9lgx0ToVGV/bBYmIPo6Jzq9jfHYtmwr8jGaW/GFsPMXDO1cf/MQzEH
+fWTs2C2NEq/Z7k+UzbIH06T0+fOhMEOP3o/2yXsbDKa/BSejPC/rUd1u1nvhTX0b
+/FsL6OTw2s1i6HjFvL0JvP5QQ0z/dci7mK3TjQhqjII9V4kGprpKmyt2vlkWco7L
+NCJ2nxONGlbdTWmUzMfVP5/Uwe72dpGtqiZBjKgwLTyM/+Zp0sx8H5VspDSpnExv
+QBztepAzklaMv/8auXswkZDhkFehOITNNZKEPLRw1/b/vZlh06LGFr8CEbRijEik
+YAgcAI8oRBobbyafVicVagK9m9iWAAxowLL4jcsVdjU0O7QsFnnHM56zO1PyH9ox
+qrneUkeSts27KCg2itweRjbD0U61uxQAPsJC2bElA2j92loFceSw4o0H173uiN7F
+sFUdDgpzTPDOfisSNVMkSP2ymYE2kG8sFy7zQYq17d9ajtravcT+lemPq6qmxiM8
+ktxzhOJTWWcwEpE7N0rL9ksUsaaHd/AIidHAsC2SkPLpvbzjsJE=
+=AW1T
+-----END PGP SIGNATURE-----
