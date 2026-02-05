@@ -257,6 +257,23 @@ Uninstall:
 sudo apt remove pimersus-browser-db13-boosted
 ```
 
+### Debian 13 – 64-bit Macbook Pro (2009)
+
+```bash
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/mcbkpro/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/mcbkpro/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+
+sudo apt update
+sudo apt install pimersus-browser-db13-mcbkpro
+```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser-db13-mcbkpro
+```
+
+
 ---
 
 ## 📦 Manual .deb Installation
@@ -292,7 +309,14 @@ sudo apt-get -f install
 ### Booster Debian 13 – 64-bit 
 
 ```bash
-sudo dpkg -i pimersus-browser-db13-boosted_2.8.0_amd64
+sudo dpkg -i pimersus-browser-db13-boosted_2.8.0_amd64.deb
+sudo apt-get -f install
+```
+
+### Booster Debian 13 – 64-bit for Macbook Pro (2009)
+
+```bash
+sudo dpkg -i pimersus-browser-db13-mcbkpro_2.8.1_amd64.deb
 sudo apt-get -f install
 ```
 
