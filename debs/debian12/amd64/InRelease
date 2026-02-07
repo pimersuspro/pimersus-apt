@@ -8,36 +8,36 @@ Version: 2.9.0
 Architecture: amd64
 Components: main
 Description: Pimersus Browser packages for Debian
-Date: Sat, 07 Feb 2026 18:39:30 +0000
+Date: Sat, 07 Feb 2026 18:57:26 +0000
 MD5Sum:
- 956bd7cb6724236c129d87b982c8c91f              968 Packages
- 6f38929cf0589aa9b39862617a8299c7              601 Packages.gz
- dd9a42de28baaa9c3125bf63fb06594d               38 Release
+ ac3ce2e378844554c938018ed6625733              968 Packages
+ 11802e739f5a1d6d9abb0aad0da3403c              602 Packages.gz
+ ebd7f223f445f6278545629c2d3e65ea               38 Release
 SHA1:
- 3943eb8b2f505781b5b1237d8bf733e9bb24079e              968 Packages
- a265b46a7c44f14715abb5685ac6082ac33fbf5e              601 Packages.gz
- c62e4f957dedd55a854ade0d8e8e178dd870eeb7               38 Release
+ 3f3f2125d76190de136face1074e945339bb305d              968 Packages
+ 7018862dfd94371fbff225a289c27f9bd547074e              602 Packages.gz
+ e1f75ea82501ea2ba3e7b4236b8f71279f34d85f               38 Release
 SHA256:
- 984b063065d190652f0ab70bb242a4e3f24b6b3e13b05009a19ca8defa1c9e7d              968 Packages
- 5ec2df8f9620943aff9f22489c5dd09bed472e0f5dd8c53821bce6facbdceef5              601 Packages.gz
- e9db9b4d5efea6b7ee87af9c9e0bc5004a831f5e37afd0ce2be7cb9182ccd670               38 Release
+ 13b4b33bbdc742ca7f7a913e92cb1c55588ba5d6e1cf30c7214ce1d230a86a93              968 Packages
+ 97ffb9d1b10eb1ec0ba98556cd721615363b07cb1dcaa097897cb38d2d204025              602 Packages.gz
+ dc9be93447bc65823601493890fa9c1327947d290427de13e9c5f2627654b399               38 Release
 SHA512:
- 17676667170b10444bb1babbb87ac9e593180a60f878f6c8e83bcea8095f07e3782866349dcd87d7f8fed00c907b37606249f0bb543270ef77432813eea3acab              968 Packages
- 6dd12aea1e60c6f26cac101b6ab24a9cd8f8d1e071fc155bfd8e8920c62c7cc118d341ed3b8d65577e51751fb9f362cd18eb7d36b0ff25ae200a5627433a8123              601 Packages.gz
- ff68dcdca13abb4420b6096d286a58fa67fbf840053179473c920cfe29b9bdc0f3da9b6cef7bb975014d0f2972884696f4d12026b5687053ffcb9f745b8e097f               38 Release
+ 6db5ddde2b62f6cc1c0e127ccccd3d71aaa9afe05e2d2fe64a4801079996eed50fe064937bdb94d70be91ec770dc0680d894ac1fa58bceed2660d43357de0682              968 Packages
+ 1667abe030caa1c66a3a632b159d6177ba91af4c029c57ade9086f2bf1014f0eccf777c44676abba0e53d9f83f227fcb939c5e40d16f4a3cd0d2003a894581be              602 Packages.gz
+ 1b05ad2467022274d8e0b305593ae876aa75a20bc937ec6e7a96ae7da16d7fff47d71cbe8d5b3ffc2a6a5788feba0e9782430782d73096732697d54db45705e7               38 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmmHhvsACgkQ4uH2UsDf
-WyEqxQ//QTvh28gk1d7wLlsa4muF5meFdIf8cyfdxD8mTctOHyctfXEjEeRiWntf
-xfQhU/4WPLGzo0BHKps8Dx0BNrczdAKsv/0ud9RKADSx2clAUMsYiAQecnS3GP3x
-aIL6Gt1Qit6d5dtQ4f32YqWWqJAlKUf3J7ujXpSK0l3OYJe6IaA9NTp1PugjgN+s
-cMwras8TSZ6zQ833v6eDvdFljsqR8j9JZ8t97GEF2aasc4FVw3J0OiecxKpc9v41
-tiIrMc+vfef8dc/GwnmO09WDQrW+ZZ4+1kXB8o6esUixRYZhPGQ0VbCxx2Sbi/T0
-HmGVTsDV0/YyEUWopsXC4DHI0slNniGVT9cAzUEKsM9f5vUE0z7lVmhJ6WdFrwuu
-J0IBXCvPo8FoNzT2/6ai7rXjnHAwYY54vL0HtFVR1JFwMXVekjbmANNh2JHWzpkS
-oPctUfa7dbQxJzcFRMhpD+StOXiYljIVxTmCKCW2B5PD7syS9gmDkwYtrhqIgQMR
-lgkBGlS3AoWFHBYtRTsBuSOXqXSazgSXLMfepbFTrMgjFPifIVCAyNBSMfngMAiK
-fcchCrhppi3/tpTrAqqyWyOtbzPtxPKNzsFjKtGtWwpyBmw4PHa9dN0vVBHcxelK
-WoiZUDyyxHdFGaxVMi8Kg88eZBXC508krhpy0hxiqmswepTJWoU=
-=6Yte
+iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmmHizQACgkQ4uH2UsDf
+WyHGKA/+JYKj0jQl7rPhNcBvuRT16UCcUiu6oqUdM6/d/ZWlC/vX+XhVt6lneETj
+DUSkXshiEvLKyDfAvL26HBj3W6sboUxzgj+YGJd/ucbibadGAuNkEeIJtDKNBGDS
+KSZp0PaCZhpXsBsl+PT5KNOazQq+aONKJ1axtisKH+Yp8nXLqm8/wuSwdy921K3d
+3TygsKgwRxS2XmxKIYX7CGqIDmabPRo6sY4D01vDi5ozq7TZXZyu/pzRky8vxYGJ
+IN/Z6RoY3WGt1lysv8e+6QipdMwbCOzmKNwWSboscXKAuNxsRu+9o5KY2R+/9UiB
+IhYxpNF4O7h8HKVq+5ijVSqiWZNogkLFxunFC+0J4urrAtY2sCOE4Yp89pk0arXp
+1G4iOnqghbEfyVQ88isisgaXg+Del5pQnkKkzDEihpIsK0RCMR6AvPDE7YwDl++O
+ssAWAR7LBu1YE6hMfBkWVaGCydHa5tKWGEJ6BEUEqXsMlybjwygWd3prgHD+nmOG
+7lw9ThCJAI8fc09zPImDQXr6AvsL+UF9Tgn9F7NpxTbj+D7kRkyoMszM5m++kkdG
+wC6wyMg4qjwJt1eKPFiUvSjAqWywX0il5O4JaN8KszOhYM0mFzc40gylfOzjOtku
+8s/6DlGJ8nyK8e3C8PImfFx1JDle4AjNAwEfTX5EQDvB5sO2bSI=
+=ZoIi
 -----END PGP SIGNATURE-----
