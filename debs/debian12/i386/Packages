@@ -5,7 +5,7 @@ Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 123
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser_3.0.0_i386.deb
+Filename: ./pimersus-browser_3.0.1_i386.deb
 Size: 52228
 MD5sum: 682ff0bc006836c74a38358fcaf36827
 SHA1: 91a5576df797a5e82a8d928443ee0f19273d8566
