@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!promoSection) return;
 
   // --- Configuración ---
-  const MIN_PIMERSUS_VERSION = "2.9.0";
-  const UPDATE_URL = "https://sourceforge.net/projects/pimersusos/files/Pimersus-Browser/";
+  const MIN_PIMERSUS_VERSION = "3.0.0";
+  const UPDATE_URL = "https://sourceforge.net/projects/pimersusos/files/Info-Versions-and-Updates/";
   
   // 1. Obtener versión inyectada por el C del navegador
   const rawVersion = window.PIMERSUS ? window.PIMERSUS.version : null;
