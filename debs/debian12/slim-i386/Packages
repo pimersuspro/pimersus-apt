@@ -1,15 +1,15 @@
 Package: pimersus-browser-slim
-Version: 3.0.0
+Version: 3.1.0
 Architecture: i386
 Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 123
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-slim_3.0.1_i386.deb
-Size: 52234
-MD5sum: 133f11a3b3714b08308ace663acd6a9f
-SHA1: 38eaefebcbaa602745700afc9e076cd5ce0d9e28
-SHA256: 1db29547f6c0fdcf62298a334c42c59513f263c659fbc2d91ecddaa359ad8a05
+Filename: ./pimersus-browser-slim_3.1.0_i386.deb
+Size: 53050
+MD5sum: f958308410d9df0782ff26874d3608d6
+SHA1: 011f4b7cbd98c94f9b89890ac1ebcb99e1fba190
+SHA256: 3fe59cf99bd39b5958a68f2842634f851a73e1a78eb1b3a44fa8bd235a50c365
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
