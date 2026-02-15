@@ -4,7 +4,7 @@ Pimersus Browser is a minimalist web browser designed originally for **PimersusO
 
 The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
 
-The most up-to-date version is **3.0.0**, distributed via **APT repositories** and receiving regular updates.
+The most up-to-date version is **3.2.0**, distributed via **APT repositories** and receiving regular updates.
 
 🚀 Pimersus Browser: Real Privacy & Performance
 
@@ -295,21 +295,21 @@ sudo apt-get -f install
 ### Debian 12 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian12_3.0.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian12_3.2.0_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Debian 13 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian13_3.0.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian13_3.2.0_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Booster Debian 13 – 64-bit 
 
 ```bash
-sudo dpkg -i pimersus-browser-db13-boosted_3.0.0_amd64.deb
+sudo dpkg -i pimersus-browser-db13-boosted_3.2.0_amd64.deb
 sudo apt-get -f install
 ```
 
