@@ -1,15 +1,15 @@
 Package: pimersus-browser-debian13
-Version: 3.1.0
+Version: 3.2.0
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 120
+Installed-Size: 130
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-debian13_3.1.0_amd64.deb
-Size: 48338
-MD5sum: 7004b74a17061994eca2c590ee0c8076
-SHA1: ddb7be03ce936e78e96b0e725ccdb447f836c31d
-SHA256: 45993b6972cbb25af6e92a15d977d07116340cde446243120f760fd7bbea89f0
+Filename: ./pimersus-browser-debian13_3.2.0_amd64.deb
+Size: 52530
+MD5sum: abbde008262cd8bed186e9428db45308
+SHA1: 187dd2bdaca594cbe9dc7a7c38917d0ec0fb7f18
+SHA256: 0f6a7ae2b10487a57e7fbc358e3d6397069364ec824a8179bf948c9f6deac389
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
