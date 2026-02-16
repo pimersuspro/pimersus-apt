@@ -1,15 +1,15 @@
 Package: pimersus-browser-db13-mcbkpro
-Version: 3.3.0
+Version: 3.4.0
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 134
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-db13-mcbkpro_3.3.0_amd64.deb
-Size: 53396
-MD5sum: 18db79557bb42ec2a4247899d50cb5ce
-SHA1: 7226b74120fb15faa3521facba8c7a4f89ed5123
-SHA256: c2809e1dbc6821f2c7526f5237ddc3aa7e6c8d89042b4252b2505ed9a7eed204
+Filename: ./pimersus-browser-db13-mcbkpro_3.4.0_amd64.deb
+Size: 53304
+MD5sum: 75df2b6c86ff2352bfa51f28351882e9
+SHA1: abedce28b2bd6dbe0b4f6c276de5a7595a4b63d6
+SHA256: 015c2f062aa860f9aa69266827e8f13e9bcede9457bac0fb56066e408a8ae818
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
