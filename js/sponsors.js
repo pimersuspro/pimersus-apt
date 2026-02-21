@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/apps.png'></div>
         <div class='promo-label'>Pimersus<br>Android Apps</div>
       </a>
-      <a class='promo-item' href='https://amzn.to/4oMhmyX'>
+      <a class='promo-item' href='https://www.amazon.com?&linkCode=ll2&tag=pimersus020c-20&linkId=a871872a82c49e1ad4a5a3a61a2d1250&language=es_US&ref_=as_li_ss_tl'>
         <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/compras.png'></div>
         <div class='promo-label'>Amazon<br>Deals</div>
       </a>
