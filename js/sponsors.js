@@ -46,6 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/agua.png'></div>
         <div class='promo-label'>Wellness<br>Products</div>
       </a>
+      <a class='promo-item' href='https://pimersuspro.hotmart.host/your-journey-to-true-wealth-6d21017e-4ea8-4015-81e7-27c47735aeb0'>
+        <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/ebook1.png'></div>
+        <div class='promo-label'>Ebook<br>Pimersus</div>
+      </a>
       <a class='promo-item' href='https://play.google.com/store/apps/dev?id=7774033461197030799'>
         <div class='promo-icon'><img src='https://pimersuspro.github.io/pimersus-apt/img/apps.png'></div>
         <div class='promo-label'>Pimersus<br>Android Apps</div>
