@@ -4,7 +4,7 @@ Pimersus Browser is a minimalist web browser designed originally for **PimersusO
 
 The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
 
-The most up-to-date version is **3.5.0**, distributed via **APT repositories** and receiving regular updates.
+The most up-to-date version is **3.9.1**, distributed via **APT repositories** and receiving regular updates.
 
 🚀 Pimersus Browser: Real Privacy & Performance
 
@@ -281,42 +281,42 @@ sudo apt remove pimersus-browser-db13-mcbkpro
 ### Slim Debian 12 – 32-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-slim_3.5.0_i386.deb
+sudo dpkg -i pimersus-browser-slim_3.9.1_i386.deb
 sudo apt-get -f install
 ```
 
 ### Debian 12 – 32-bit
 
 ```bash
-sudo dpkg -i pimersus-browser_3.5.0_i386.deb
+sudo dpkg -i pimersus-browser_3.9.1_i386.deb
 sudo apt-get -f install
 ```
 
 ### Debian 12 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian12_3.5.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian12_3.9.1_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Debian 13 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian13_3.5.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian13_3.9.1_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Booster Debian 13 – 64-bit 
 
 ```bash
-sudo dpkg -i pimersus-browser-db13-boosted_3.5.0_amd64.deb
+sudo dpkg -i pimersus-browser-db13-boosted_3.9.1_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Booster Debian 13 – 64-bit for Macbook Pro (2009)
 
 ```bash
-sudo dpkg -i pimersus-browser-db13-mcbkpro_3.5.0_amd64.deb
+sudo dpkg -i pimersus-browser-db13-mcbkpro_3.9.1_amd64.deb
 sudo apt-get -f install
 ```
 
