@@ -5,7 +5,7 @@ Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 210
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-slim-debian12_4.1.0_amd64.deb
+Filename: ./pimersus-browser-slim-debian12_4.1.6_amd64.deb
 Size: 122222
 MD5sum: bbd4942041699f0efe622b9246688f88
 SHA1: 7b5ae7538406273225be19ff3fffb4acb6f6a48f
