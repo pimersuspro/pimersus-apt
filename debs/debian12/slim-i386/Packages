@@ -1,15 +1,15 @@
 Package: pimersus-browser-slim
-Version: 4.1.2
+Version: 4.1.5
 Architecture: i386
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 214
+Installed-Size: 217
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, bash, curl, unzip, inotify-tools
 Recommends: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-alsa
-Filename: ./pimersus-browser-slim_4.1.2_i386.deb
-Size: 124590
-MD5sum: 09a62c2693b33436a37545e1658cc301
-SHA1: 86aa826f799a47a162d8d131314f4aa7a54e1871
-SHA256: 15e1fd4b59855da54c6b5f30e0ee7284ffcb5c38f6def27aa475e6508dc17679
+Filename: ./pimersus-browser-slim_4.1.5_i386.deb
+Size: 125390
+MD5sum: b9c769d661a060f5a1c5098a735b10f7
+SHA1: 516ff7483038efdf7c4d570abb1c5a235109ad0d
+SHA256: db3e6664b4312de511a7986bdcff837a27b4f222a72465e539d48589f737f0b1
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
