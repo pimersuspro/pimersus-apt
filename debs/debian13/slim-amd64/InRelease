@@ -4,40 +4,40 @@ Hash: SHA512
 Origin: Pimersus
 Label: Pimersus Browser Repository
 Suite: stable
-Version: 4.2.0
+Version: 4.2.1
 Architecture: amd64
 Components: main
 Description: Pimersus Browser packages for Debian
-Date: Tue, 10 Mar 2026 03:09:42 +0000
+Date: Tue, 10 Mar 2026 03:15:21 +0000
 MD5Sum:
- 913b85bac9ad3e50f88f605bbdb8971c              979 Packages
- a080b4ffa77a7705106061a8d7d954dc              602 Packages.gz
- d3f359f0b762cfd4060f2a82fb7d6e0b               38 Release
+ 48a0b368e0d59ea0f6360d8cace43ba6              979 Packages
+ cd4658c7562a2b6312bfbc51f96c6338              604 Packages.gz
+ a9407ca17614ace22864dacd6a839d0d               38 Release
 SHA1:
- 04a61dfb2fae2cd47f6e684206884929906f7ca8              979 Packages
- 896ced8bd54d49ba93d73bedd60248593847739c              602 Packages.gz
- a32fa063e55255d78c68343576068ec9ebb48b5c               38 Release
+ 5d63d114d280e5a9ed2ae512abef05bf9b8ae6ee              979 Packages
+ 5328f77e8976be03975de273c6ac6cd6427f4611              604 Packages.gz
+ 615a4372a31d1bbfda85be0ac8954bcee619e89d               38 Release
 SHA256:
- 307ff226df50374e9d01ee3a64285aa7a965f03fc291e63113981375f23a999c              979 Packages
- c1f2e2a975190b14d705cdb4a7721a781c8c2b113517c50996076d76fd635f3b              602 Packages.gz
- c5bcf3b2921ec154e41c0f1601c70d909b97f46225bbca1e6e829c0d8760f653               38 Release
+ b3b07c5add2e31e5689c59e58a4d2f878a36433e27239ca19386438a2e3f716c              979 Packages
+ f7e11c87be3b824500718753ca12e6bb0c5f484edbe88a6d60d027f51a5fe80a              604 Packages.gz
+ dd0f8cb50913369ead931557d55d393797081a8e6b6338bda8cc65120775fc24               38 Release
 SHA512:
- 29d8e3119f237bff223382b7d4b5c7a324cb29ef51de842483e9a488847d0f9df9b8801f062126a6c9308ae6ae055953d6755215956d8163325edec5ae62ff40              979 Packages
- 1d5a96fd8f803e1be33e9ea66471d8cf30060607ead31b7776b8e37da39c76f862636a7fa1e698f37bdf9923125c029e04d5a00420f3cb633e30166833c53ac6              602 Packages.gz
- 7fcb9876eb3543a9d944d5aac89b62f64e5671ee685bfc088e8a485ae530c70fca1db63476d4813e56766824bca394dbc247de8add735e1dfe9a3c74e0b2585c               38 Release
+ 61d1e285d607da9a281d509cd32bd11356050af93077ce1dd7e6051802abe64b7481b74253b632af71dc23a7467bd3796b67ff5bf96d79b1ca903d171d056844              979 Packages
+ fdb4d0e94582750e5fff827499bd38c1076d1b9a4403aff6fe6296f5233d1bb5c7c2d7808558f9b4fe3c6039689dc91c525150323368ced46822fe18596f16a7              604 Packages.gz
+ 8c7871e374421cfe3be1594e07dc6dd392359128ed1411f65cc29ffb4a26883d4a797388aeaf708c0671fa40e3886c61774797f01bfa1ceae78ed793b82d619e               38 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmmvi5EACgkQ4uH2UsDf
-WyFoDQ//Y7hsAC9k637ifRL81Ht9IL/tgf+82FbZSQYKkUTkoj8wbz6RJ0Kyfjgm
-GkhpL8QpzLaZ27/cQ5pE1f3RfrtSsZ6V8EojMVC8GJdR8auN5OKN79I5A/DXmgC4
-ssWB7tPicKNYkz1isn6jwhFZWvQk1i532fXPg526yUe/Fbg+69UApw75lZeWDnnd
-58BW9Ly3rfcMR+8KCeWFfutv/oh/B6UNW9AQ8Z21xG7ihWHzuRMBgmCCUmE+2Vpz
-RXFR3hTcnKCZtp0MPsHU6Zfw66xQWaa9XdOM87+8fTWL9ppcX1R1/BKdhORapg6M
-UZIxPVguFxjCMC4472RP5Mi2Faeep76MO6uORAMTAmJJBv+qdrMLHigyFPx1SE8c
-MuuiGA6KcMxE5HltOfN7DOxlnxI2yHNdwKpljmIg6ROUH3/ukDnz7lkfvHD3siQm
-H7PUDwo5h2T3bQpYPE+PzGKHunjBSe8dfw8KReBE38tOsTpLIb2dQG0I10ZkV+14
-xh2To9QHhGd/QkkAU0aOs8LV7VEMArBN4YfwTQu2EjnzB6acm/dsQXdvcP1XbK1c
-ZFBFW70467TrL/1oPXGx+r/0i8LlvcU8gp5FQrtJZGSd0oVb8/fwZAto4EqroDji
-Ba5LXhH2ul7XKvZUU53zpXwn8PE8rySUmIjeNBRDfbMIo1BfEPA=
-=1ziN
+iQIzBAEBCgAdFiEEVlX5gf0yjdmSsjMX4uH2UsDfWyEFAmmvjOgACgkQ4uH2UsDf
+WyGAIQ//Vw7tpX+Rl9sq82Dv28bxuOxgM0nziRBMUOW+9TbeG7JasLbQHN45Up5B
+Os5MWYaArQxPfIS4Uc4RQw4D/EiEgFzxSBB7PmWs8+M8AWxHSgxU6nXFT9oN1nRZ
+uTz6NjC8pT/D1hajLLa14ENHsy/IUZTxZii4nEYfPlLx7hqgBzos1ohPxmjRXX+l
+4dL5WdhVpjH20ThCiXyxZkZstWvYaiIwVhFKNcyTOn6N3EEmA7dFlS+aUFuLsMIu
+Qh6cTddIVBc4Y4CWv7GgB3wIZtXlEuMp3KmTxABWj8ltBCk6nLiD95wz7iaweDCw
+qThNixaiJAhAo1bY1/iQiMV0bwiEhN3+3Ubp7PhdEAfzQUosbYqVJDQbIZ6SWYbI
+wMeUSYhlCiCn8x21QVUEAt7/cS44Y0V5mzJ6XKVmN2uC0eLfYoa8lAp3ahSLWF7D
+ZvIZgTCe8bhIBfkxgICcRqBEfROfSWwjGOJn6oEOh8hvnFHFzf9+QTZV4JosDsCm
+pFwMc8TeI3djbWwrMsZ3BZq2BY4cTpz4G0VUQB5sb3lEAUXnu2aWDtI/oBQbZqCl
+2fSi+Qo0XTArLYozIf1GU3a/iLotcRLS+7Li50XCgyRAkfcCorAGrlfn8YT3bUdy
+/ytjGJLR1eHH3D/wgpWdYnMSmBJpABLkAhZKqlxI6a/WGlZEltY=
+=wMKT
 -----END PGP SIGNATURE-----
