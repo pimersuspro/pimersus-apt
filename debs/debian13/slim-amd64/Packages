@@ -1,15 +1,15 @@
 Package: pimersus-browser-slim-debian13
-Version: 4.1.6
+Version: 4.2.0
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 218
+Installed-Size: 228
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-slim-debian13_4.1.6_amd64.deb
-Size: 122842
-MD5sum: a79891b67d7f94ee4f2b6289d24c68b4
-SHA1: b82b8c350ff00661b89631076b32b0f6aeced7b5
-SHA256: ebcf126291cf65a5ec94f7b5b648c71660198c9aeee0b3ac2802ad189118a099
+Filename: ./pimersus-browser-slim-debian13_4.2.0_amd64.deb
+Size: 125534
+MD5sum: 01167a933a26d5a41441675631a7dccb
+SHA1: 62354aac635a070318a9cec48bf92cb18ed483f5
+SHA256: 01451ab5f48edd1c9ca8e88db6d471934a0a01c24e1c91132b7c7e77d22469a9
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
