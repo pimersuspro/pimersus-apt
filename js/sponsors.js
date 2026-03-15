@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
     updateBtn.style.background = "rgba(255, 193, 7, 0.15)";
     updateBtn.innerHTML = `
       <div class='promo-icon'><img src='https://us.pimersuspro.online/html/img/browser/updatep.png'></div>
-      <div class='promo-label' style="color:#856404;font-weight:bold;">Update<br>Available</div>
+      <div class='promo-label' style="color:#856404;font-weight:bold;">Update<br>Available<br>4.3.0</div>
     `;
     grid.prepend(updateBtn);
 
