@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!promoSection) return;
 
   // --- Configuración ---
-  const MIN_PIMERSUS_VERSION = "4.5.4";
+  const MIN_PIMERSUS_VERSION = "4.5.6";
   const UPDATE_URL = "https://sourceforge.net/projects/pimersusos/files/Info-Versions-and-Updates/";
   
   // 1. Obtener versión inyectada por el C del navegador
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
     updateBtn.style.background = "rgba(255, 193, 7, 0.15)";
     updateBtn.innerHTML = `
       <div class='promo-icon'><img src='https://us.pimersuspro.online/html/img/browser/updatep.png'></div>
-      <div class='promo-label' style="color:#856404;font-weight:bold;">Update<br>Available<br>4.3.0</div>
+      <div class='promo-label' style="color:#856404;font-weight:bold;">Update<br>Available<br>4.5.6</div>
     `;
     grid.prepend(updateBtn);
 
