@@ -1,0 +1,25 @@
+Origin: Pimersus
+Label: Pimersus Installer Repository
+Suite: stable
+Codename: debian13
+Version: 1.0
+Architectures: all amd64
+Components: main
+Description: PimersusOS installer packages
+Date: Thu, 30 Apr 2026 16:24:28 +0000
+MD5Sum:
+ 94ac9c7a8886e9aae7978346c169fd66              555 Packages
+ 39249713e4509ca878c5598040b6ca71              405 Packages.gz
+ 80272eb523508f0d227d1c92be7ed098               38 Release
+SHA1:
+ 4656798dd4f1d819d02313646e39b7f5320966d0              555 Packages
+ 86b0cec47b606c02850185d732c3c3304d2f2e18              405 Packages.gz
+ d9e1e9e8fe7b42bdaba47d97caaf3284c4cedf56               38 Release
+SHA256:
+ b0c234906cacae5708c4dcf7ef14d0fc39de55a7fe78cc7e8647c4431444b184              555 Packages
+ 6bcd6aa1ded221032577f6a68bf93b538bb45a0c48c4b83c017bea310729bfc4              405 Packages.gz
+ f2e0ca8ca6fa546ecb0e4c4924f540d54206bb9bbf02310d57918c26a918302f               38 Release
+SHA512:
+ 375688bc1db3f9d04b5a2975264eef32716e810a57848f7abebd819ced8116c834325cf369e3f097b2042acf824b504ae399a2e57bbf173a5fca8cfccf6da07a              555 Packages
+ e4655c5198e900e6a4ca8a7bf5479f6d328a1e4f9c7805a800f9936985cfbdff566b6e6404090a105a51f50a5fa8edbdec5d947441e06e4a40fc794ee8c165d7              405 Packages.gz
+ 2b2062618d328c1bc7cb290a634396d1337ed37a54c4be190f648f0a32afc37809f66ad16bb18d5d9b142110700697a85f425b9b0ca2feffb62002bc771c4e95               38 Release
