@@ -1,0 +1,15 @@
+Package: pimersus-installer
+Version: 1.0.0-1
+Architecture: i386
+Maintainer: Pimersus
+Depends: bash, dialog, rsync, parted, gdisk, dosfstools, grub-pc-bin, grub-efi-ia32-bin, efibootmgr, os-prober, policykit-1
+Filename: ./pimersus_installer_v1.0.0-1_i386.deb
+Size: 14588
+MD5sum: 5cee8b7367d103afe23f24af979a5e43
+SHA1: ad748c509bee482a32ff13931a419bd5cedcac5e
+SHA256: 407a54c185cd99260793fea3d5b64affffb884569ca72e147ea6bbf713a37fd1
+Section: admin
+Priority: optional
+Description: PimersusOS Installer
+ Graphical installer for PimersusOS written in Bash.
+
