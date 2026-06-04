@@ -126,6 +126,30 @@ Pimersus Browser aims to provide **better-than-default privacy** without breakin
 
 ---
 
+## How to update (recommended)
+
+If you installed Pimersus Browser using the official repository, updating is simple and safe.
+
+Open a terminal and run:
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+This will automatically download and install the latest available version.
+
+
+If the browser reports that an update is available but the update was not applied automatically, you can force the update process by running:
+
+```bash
+sudo apt reinstall $(dpkg -l | awk '/^ii  pimersus-browser/{print $2}')
+```
+
+This command reinstalls the currently installed Pimersus Browser package. If a newer version is available in the repository, it will be downloaded and installed automatically.
+
+---
+
+
 ## ⚠️ Important Notice
 
 Running Pimersus Browser on distributions other than PimersusOS is done **at the user’s own risk**. While it works well on many Debian-based systems, some limitations may exist outside the native environment.
