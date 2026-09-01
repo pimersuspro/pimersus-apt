@@ -8,7 +8,7 @@ Due to applicable regulations and compliance requirements, the use of this brows
 
 The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
 
-The most up-to-date version is **4.7.0**, distributed via **APT repositories** and receiving regular updates.
+The most up-to-date version is **4.7.3**, distributed via **APT repositories** and receiving regular updates.
 
 🚀 Pimersus Browser: Real Privacy & Performance
 
@@ -334,21 +334,21 @@ sudo apt-get -f install
 ### Debian 12 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian12_4.7.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian12_4.7.3_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Debian 13 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian13_4.7.0_amd64.deb
+sudo dpkg -i pimersus-browser-debian13_4.7.3_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Booster Debian 13 – 64-bit 
 
 ```bash
-sudo dpkg -i pimersus-browser-db13-boosted_4.7.0_amd64.deb
+sudo dpkg -i pimersus-browser-db13-boosted_4.7.3_amd64.deb
 sudo apt-get -f install
 ```
 
