@@ -1,24 +1,24 @@
 Origin: Pimersus
 Label: Pimersus Browser Repository
 Suite: stable
-Version: 4.7.3
+Version: 4.7.5
 Architecture: amd64
 Components: main
 Description: Pimersus Browser packages for Debian
-Date: Mon, 31 Aug 2026 23:45:08 +0000
+Date: Wed, 02 Sep 2026 13:39:06 +0000
 MD5Sum:
- 8dab9b702c57e543ecff89c8fad0b889              983 Packages
- 3e7e6c442a89ff2e320ee0951ece3bae              601 Packages.gz
- 25ea3c4e3e1a44124bbb78e551e169d4               38 Release
+ cebb6bd93627d2f071a75e8b98c02eb1              983 Packages
+ 108e3677a6f5d6d8675047276621c411              604 Packages.gz
+ 82bfc3cc70b5b68a01cb599e165c46df               38 Release
 SHA1:
- ed57986c6822e0c8be5c666989ddbdb19cbea9b1              983 Packages
- 969a27c966ecac1fdedd70a4a4e09820413ef27e              601 Packages.gz
- d1feec97ee33e9d383b8774594ebae98edac205f               38 Release
+ 69ea48f45abbdb5e4741f6df354007b4c08acf65              983 Packages
+ 06d72c3c75d5093a4fa085777dbf4f81f733c3bf              604 Packages.gz
+ c9fa303384c891a6c82cd099350bbb897341ae1a               38 Release
 SHA256:
- 9432c256ba962f6331a31580aa1c13a3a53a5d7283c9b6c554b48b89b6e0e6bc              983 Packages
- 1071a519d71d924db99b20cb1314ead8a32bccf94c1e65c6cd876ddd64f14c54              601 Packages.gz
- f0d6303c759a936c8444f755a42079fe0896ae4998897958d86d7f81432a833f               38 Release
+ 9b7869b2c6c358cb1b89c6dbf98093075c91ed612219ef9123360a551cc01ed5              983 Packages
+ 065c86aedd5437a23a47cae5bc36c0b32af5707c2520d0610f32cafab91b1e43              604 Packages.gz
+ b9f1fa876bde2dced8f74f06428fe228c03f012639204a7548c8771e3029a8a9               38 Release
 SHA512:
- aa15269deb71c2162f6d8b15919b89aea1f638df044de19f0d8b9ed0a0f0725672fcfeedb8110b689d7b90397c69cd2344e8c0890a07d71ce6d4087c5217592f              983 Packages
- f66aed1829e1a8f2a11877fc37df7ecd5f38bc801fb43035889efcc8e8ab2ac96cbcd1e171837df889c5d8c5a307ed8ee2699b698a0ab80c5dd9bf96dc5d8c21              601 Packages.gz
- 00a17033c513dfcfcf948328920f641e48adbf3d381dc817780f0100f206a9b072b287423cbd14a9f95b7249f88ea30f491b0fde7fcb54436f6acb6a71359009               38 Release
+ 87ad5a51ca833ee228dc4ebbc29ce8e9b35e788547bbdb726387bf599ed66a915f1da18107e343a26b9e683c1f286cedfaadf70a7d700caa603bcb0dfaa5527b              983 Packages
+ 1d10284b8c7d6cf3684a7b3b799df6065432b6fe2364c704c212518a61947896410c01c7d7ffc0e257f12272baf25ff5162750283ed6c152a2ade5525e428e74              604 Packages.gz
+ 7621a6503a5fab05f3c2318949d8b316f17eb699578fb0565ff2b705ca25bbd63f81f56daf7a90680f3f2fc7d387a12b4c137fcf490ccd338a53a84f3a40b2fb               38 Release
