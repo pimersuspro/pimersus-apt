@@ -1,15 +1,15 @@
 Package: pimersus-browser-db13-boosted
-Version: 4.7.4
+Version: 4.7.5
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
-Installed-Size: 227
+Installed-Size: 223
 Depends: libgtk-3-0, libwebkit2gtk-4.1-0, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libicu67, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-db13-boosted_4.7.4_amd64.deb
-Size: 126384
-MD5sum: 8c14d37ea0e11c2ab576eeeac2494e02
-SHA1: b349841867c0cc480c226b048cccbcf26a2b32a8
-SHA256: 7af8e5935cb6f5474ff07e190d68c78bec13d51ee06008897b8d3b5932bffe19
+Filename: ./pimersus-browser-db13-boosted_4.7.5_amd64.deb
+Size: 124790
+MD5sum: fb5b971169bc8b46f6e957dac2236f93
+SHA1: c730ac15a5fd150f2e206801abcb447cec292d59
+SHA256: b7defe38931c28e6e2f561ecf71358df43c6e024da29973095ff15f1bdb934be
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
