@@ -166,12 +166,20 @@ https://www.virustotal.com/gui/file/b389ededf9bd5accd8fb9a1103d249f4f66d63983b0a
 Version for low-resource computers, below 4GB of RAM, older computers
 
 ```bash
-wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/Pimersus-Key.asc | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
-echo "deb [arch=i386 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/ ./" | sudo tee /etc/apt/sources.list.d/pimersus.list
+sudo dpkg --add-architecture i386 2>/dev/null || true
+
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/Pimersus-Key.asc \ | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+echo "deb [arch=i386 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/ ./" \ | sudo tee /etc/apt/sources.list.d/pimersus.list
 
 sudo apt update
 sudo apt install pimersus-browser-dbn13
 ```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser-dbn13
+```
+
 
 ### Slim version Debian 12 – 32-bit (AntiX)
 Version for low-resource computers, below 4GB of RAM, older computers
@@ -295,26 +303,6 @@ Uninstall:
 ```bash
 sudo apt remove pimersus-browser-db13-boosted
 ```
-
-
-### Debian 13 – 32-bit
-
-```bash
-sudo dpkg --add-architecture i386 2>/dev/null || true
-
-wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/Pimersus-Key.asc \ | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
-echo "deb [arch=i386 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/ ./" \ | sudo tee /etc/apt/sources.list.d/pimersus.list
-
-sudo apt update
-sudo apt install pimersus-browser-dbn13
-```
-
-Uninstall:
-```bash
-sudo apt remove pimersus-browser-dbn13
-```
-
-
 
 ### Debian 13 – 64-bit Macbook Pro (2009)
 
