@@ -8,7 +8,7 @@ Due to applicable regulations and compliance requirements, the use of this brows
 
 The project focuses on providing a **simple, fast, and practical browsing experience**, even on low-resource or older computers, while remaining fully usable on modern hardware.
 
-The most up-to-date version is **4.7.3**, distributed via **APT repositories** and receiving regular updates.
+The most up-to-date version is **4.7.5**, distributed via **APT repositories** and receiving regular updates.
 
 🚀 Pimersus Browser: Real Privacy & Performance
 
@@ -296,6 +296,26 @@ Uninstall:
 sudo apt remove pimersus-browser-db13-boosted
 ```
 
+
+### Debian 13 – 32-bit
+
+```bash
+sudo dpkg --add-architecture i386 2>/dev/null || true
+
+wget -qO - https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/Pimersus-Key.asc \ | sudo gpg --dearmor -o /usr/share/keyrings/pimersus.gpg
+echo "deb [arch=i386 signed-by=/usr/share/keyrings/pimersus.gpg] https://pimersuspro.github.io/pimersus-apt/debs/debian13/i386/ ./" \ | sudo tee /etc/apt/sources.list.d/pimersus.list
+
+sudo apt update
+sudo apt install pimersus-browser-dbn13
+```
+
+Uninstall:
+```bash
+sudo apt remove pimersus-browser-dbn13
+```
+
+
+
 ### Debian 13 – 64-bit Macbook Pro (2009)
 
 ```bash
@@ -334,21 +354,28 @@ sudo apt-get -f install
 ### Debian 12 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian12_4.7.3_amd64.deb
+sudo dpkg -i pimersus-browser-debian12_4.7.5_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Debian 13 – 64-bit
 
 ```bash
-sudo dpkg -i pimersus-browser-debian13_4.7.3_amd64.deb
+sudo dpkg -i pimersus-browser-debian13_4.7.5_amd64.deb
 sudo apt-get -f install
 ```
 
 ### Booster Debian 13 – 64-bit 
 
 ```bash
-sudo dpkg -i pimersus-browser-db13-boosted_4.7.3_amd64.deb
+sudo dpkg -i pimersus-browser-db13-boosted_4.7.5_amd64.deb
+sudo apt-get -f install
+```
+
+### Debian 13 – 32-bit 
+
+```bash
+sudo dpkg -i pimersus-browser-dbn13_4.7.5_i386.deb
 sudo apt-get -f install
 ```
 
