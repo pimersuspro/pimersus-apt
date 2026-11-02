@@ -1,15 +1,15 @@
-Package: pimersus-browser-slim-debian12
+Package: pimersus-browser-debian12
 Version: 4.7.9
 Architecture: amd64
 Maintainer: pimersus <pimersuspro@gmail.com>
 Installed-Size: 383
 Depends: libgtk-3-0, libwebkit2gtk-4.0-37, libsoup-3.0-0, bash, curl, unzip, inotify-tools, libnotify4
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-pulseaudio, libgnutls30, libjson-glib-1.0-0, libxml2, libxslt1.1, libjpeg62-turbo, libpng16-16, libwebp7, fonts-dejavu-core, fonts-noto-core
-Filename: ./pimersus-browser-slim-debian12_4.7.9_amd64.deb
-Size: 185594
-MD5sum: 346c89a807522a5654481168d85332d7
-SHA1: 30df6e14d73ce7418a5227ed00485710cc52c667
-SHA256: 2c233f9fd9ad616239140c6decf2caa044dc79d4773af2e72297c1d0bd32d799
+Filename: ./pimersus-browser-debian12_4.7.9_amd64.deb
+Size: 185582
+MD5sum: e96aef8a088dfc4beed34c1a347bb887
+SHA1: 27236f822d14e83544be5d02c6743fa76ea6830c
+SHA256: aa0b4a086a3a1795ef1f59a313ae80936d329395760cb78051f78716202d7cd6
 Section: default
 Priority: optional
 Homepage: https://sourceforge.net/projects/pimersusos/
